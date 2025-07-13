@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+button {
+  padding: 12px 24px;
+  margin: 10px;
+  font-size: 16px;
+  border: none;
+  background: #44c;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+button:disabled {
+  background: #555;
+  cursor: not-allowed;
+}
+
+.hidden {
+  display: none;
+}
+
+.inventory {
+  margin-top: 20px;
+  padding: 10px;
+  background: #222;
+  border-top: 1px solid #444;
+}
+
+.puzzle {
+  margin: 20px auto;
+  max-width: 600px;
+  padding: 20px;
+  border: 1px solid #333;
+  background: #1a1a1a;
+}
+
+@media (max-width: 600px) {
+  .puzzle {
+    width: 90%;
+  }
+}
